@@ -2,8 +2,10 @@ import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import { z } from "zod";
 import { useForm } from 'react-hook-form'
 
-import styles from "~/styles/index.css";
 import { zodResolver } from "@hookform/resolvers/zod";
+
+import React from "react";
+import styles from "~/styles/index.css";
 
 export const links: LinksFunction = () => {
   return [
