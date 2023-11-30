@@ -15,7 +15,7 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Remix with ZOD" },
+    { title: "Remix validation with ZOD" },
     { name: "description", content: "Welcome to Remix and ZOD!" },
   ];
 };
